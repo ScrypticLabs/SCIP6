@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/scipmip.dir/src/cppmain.cpp.o  -o ../../bin/examples/scipmip  -Wl,-rpath,/opt/scip/scip-6.0.1/build/lib ../../lib/libscip.so.6.0.1.0 

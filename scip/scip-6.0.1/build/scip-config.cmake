@@ -1,0 +1,20 @@
+if(NOT TARGET libscip)
+  include("${CMAKE_CURRENT_LIST_DIR}/scip-targets.cmake")
+endif()
+
+set(ZIMPL_NEEDED "0")
+set(SOPLEX_NEEDED "1")
+
+if(ZIMPL_NEEDED)
+   set(ZIMPL_DIR "")
+   find_package(ZIMPL QUIET CONFIG)
+endif()
+
+if(SOPLEX_NEEDED)
+   set(SOPLEX_DIR "/opt/scip/lib/cmake/soplex")
+   find_package(SOPLEX QUIET CONFIG)
+endif()
+
+set(SCIP_LIBRARIES libscip)
+set(SCIP_INCLUDE_DIRS "/opt/scip/scip-6.0.1/src;/opt/scip/scip-6.0.1/build")
+set(SCIP_FOUND TRUE)

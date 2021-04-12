@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/gmi.dir/src/cmain.c.o CMakeFiles/gmi.dir/src/sepa_gmi.c.o  -o ../../bin/examples/gmi  -Wl,-rpath,/opt/scip/scip-6.0.1/build/lib ../../lib/libscip.so.6.0.1.0 -lm 

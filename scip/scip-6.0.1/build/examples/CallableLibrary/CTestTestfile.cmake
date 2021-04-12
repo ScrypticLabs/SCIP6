@@ -1,0 +1,26 @@
+# CMake generated Testfile for 
+# Source directory: /opt/scip/scip-6.0.1/examples/CallableLibrary
+# Build directory: /opt/scip/scip-6.0.1/build/examples/CallableLibrary
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(examples-callablelibrary_circle-build "/root/anaconda3/envs/branchRL/lib/python3.6/site-packages/cmake/data/bin/cmake" "--build" "/opt/scip/scip-6.0.1/build" "--target" "circle")
+set_tests_properties(examples-callablelibrary_circle-build PROPERTIES  RESOURCE_LOCK "libscip" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;44;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;65;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
+add_test(examples-callablelibrary_circle "/opt/scip/scip-6.0.1/build/bin/examples/circle")
+set_tests_properties(examples-callablelibrary_circle PROPERTIES  DEPENDS "examples-callablelibrary_circle-build" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;56;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;65;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
+add_test(examples-callablelibrary_gastrans-build "/root/anaconda3/envs/branchRL/lib/python3.6/site-packages/cmake/data/bin/cmake" "--build" "/opt/scip/scip-6.0.1/build" "--target" "gastrans")
+set_tests_properties(examples-callablelibrary_gastrans-build PROPERTIES  RESOURCE_LOCK "libscip" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;44;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;66;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
+add_test(examples-callablelibrary_gastrans "/opt/scip/scip-6.0.1/build/bin/examples/gastrans")
+set_tests_properties(examples-callablelibrary_gastrans PROPERTIES  DEPENDS "examples-callablelibrary_gastrans-build" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;56;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;66;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
+add_test(examples-callablelibrary_string-build "/root/anaconda3/envs/branchRL/lib/python3.6/site-packages/cmake/data/bin/cmake" "--build" "/opt/scip/scip-6.0.1/build" "--target" "string")
+set_tests_properties(examples-callablelibrary_string-build PROPERTIES  RESOURCE_LOCK "libscip" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;44;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;67;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
+add_test(examples-callablelibrary_string "/opt/scip/scip-6.0.1/build/bin/examples/string")
+set_tests_properties(examples-callablelibrary_string PROPERTIES  DEPENDS "examples-callablelibrary_string-build" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;56;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;67;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
+add_test(examples-callablelibrary_brachistochrone-build "/root/anaconda3/envs/branchRL/lib/python3.6/site-packages/cmake/data/bin/cmake" "--build" "/opt/scip/scip-6.0.1/build" "--target" "brachistochrone")
+set_tests_properties(examples-callablelibrary_brachistochrone-build PROPERTIES  RESOURCE_LOCK "libscip" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;44;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;68;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
+add_test(examples-callablelibrary_brachistochrone "/opt/scip/scip-6.0.1/build/bin/examples/brachistochrone")
+set_tests_properties(examples-callablelibrary_brachistochrone PROPERTIES  DEPENDS "examples-callablelibrary_brachistochrone-build" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;56;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;68;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
+add_test(examples-callablelibrary_circlepacking-build "/root/anaconda3/envs/branchRL/lib/python3.6/site-packages/cmake/data/bin/cmake" "--build" "/opt/scip/scip-6.0.1/build" "--target" "circlepacking")
+set_tests_properties(examples-callablelibrary_circlepacking-build PROPERTIES  RESOURCE_LOCK "libscip" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;44;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;69;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
+add_test(examples-callablelibrary_circlepacking "/opt/scip/scip-6.0.1/build/bin/examples/circlepacking")
+set_tests_properties(examples-callablelibrary_circlepacking PROPERTIES  DEPENDS "examples-callablelibrary_circlepacking-build" _BACKTRACE_TRIPLES "/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;56;add_test;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;69;addbuildandtest;/opt/scip/scip-6.0.1/examples/CallableLibrary/CMakeLists.txt;0;")
