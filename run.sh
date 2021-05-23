@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install -y cmake
+
 export SCIPOPTDIR='/opt/SCIP6/scip'
 
 cd scip/soplex-4.0.1
