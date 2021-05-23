@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ls
+
 sudo apt install -y cmake
 
 export SCIPOPTDIR='/opt/SCIP6/scip'
