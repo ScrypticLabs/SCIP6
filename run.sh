@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ls
+pwd
 
 sudo apt install -y cmake
 
