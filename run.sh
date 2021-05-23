@@ -12,10 +12,8 @@ make -C ./build -j 4
 make -C ./build install
 
 cd ../scip-6.0.1/
-pwd
 rm -rf build
-mkdir build
-cmake -S . -B build -DSOPLEX_DIR=$SCIPOPTDIR -DCMAKE_INSTALL_PREFIX=$SCIPOPTDIR
-make -C ./build -j 4
-make -C ./build install
+cmake -S . -DSOPLEX_DIR=$SCIPOPTDIR -DCMAKE_INSTALL_PREFIX=$SCIPOPTDIR
+make -C . -j 4
+make -C . install
 cd ..
